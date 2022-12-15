@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaspe\\Documents\\2022-2023\\WDPR\\WDPR_groep5\\Groep5\\Groep5.csproj": {}
+    "C:\\Users\\b1712\\Desktop\\Github WDPR\\WDPR_groep5\\groep5\\Groep5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jaspe\\Documents\\2022-2023\\WDPR\\WDPR_groep5\\Groep5\\Groep5.csproj": {
+    "C:\\Users\\b1712\\Desktop\\Github WDPR\\WDPR_groep5\\groep5\\Groep5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaspe\\Documents\\2022-2023\\WDPR\\WDPR_groep5\\Groep5\\Groep5.csproj",
+        "projectUniqueName": "C:\\Users\\b1712\\Desktop\\Github WDPR\\WDPR_groep5\\groep5\\Groep5.csproj",
         "projectName": "Groep5",
-        "projectPath": "C:\\Users\\jaspe\\Documents\\2022-2023\\WDPR\\WDPR_groep5\\Groep5\\Groep5.csproj",
-        "packagesPath": "C:\\Users\\jaspe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaspe\\Documents\\2022-2023\\WDPR\\WDPR_groep5\\Groep5\\obj\\",
+        "projectPath": "C:\\Users\\b1712\\Desktop\\Github WDPR\\WDPR_groep5\\groep5\\Groep5.csproj",
+        "packagesPath": "C:\\Users\\b1712\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\b1712\\Desktop\\Github WDPR\\WDPR_groep5\\groep5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jaspe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\b1712\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

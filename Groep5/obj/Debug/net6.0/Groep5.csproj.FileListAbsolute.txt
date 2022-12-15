@@ -1,0 +1,15 @@
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\bin\Debug\net6.0\Groep5.exe
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\bin\Debug\net6.0\Groep5.deps.json
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\bin\Debug\net6.0\Groep5.runtimeconfig.json
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\bin\Debug\net6.0\Groep5.dll
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\bin\Debug\net6.0\Groep5.pdb
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\obj\Debug\net6.0\Groep5.csproj.AssemblyReference.cache
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\obj\Debug\net6.0\Groep5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\obj\Debug\net6.0\Groep5.AssemblyInfoInputs.cache
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\obj\Debug\net6.0\Groep5.AssemblyInfo.cs
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\obj\Debug\net6.0\Groep5.csproj.CoreCompileInputs.cache
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\obj\Debug\net6.0\Groep5.dll
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\obj\Debug\net6.0\refint\Groep5.dll
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\obj\Debug\net6.0\Groep5.pdb
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\obj\Debug\net6.0\Groep5.genruntimeconfig.cache
+C:\Users\b1712\Desktop\Github WDPR\WDPR_groep5\groep5\obj\Debug\net6.0\ref\Groep5.dll
