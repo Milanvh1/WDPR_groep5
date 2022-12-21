@@ -6,7 +6,6 @@ function Example() {
   const [count, setCount] = useState(0);
 
 function OnAankoop() {
-  //WEEK 14 TESTS:
   if (document.getElementById("quantity").value < 0) {
     throw new Error('Value can not be negative');
   }
