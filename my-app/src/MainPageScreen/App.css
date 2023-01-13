@@ -1,0 +1,624 @@
+
+.e39_61 { 
+	overflow:hidden;
+}
+.menubutton {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  left: 0px;
+  top: 56px;
+  opacity: 50%;
+}
+.e51_298 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:390px;
+	height:844px;
+	position:absolute;
+}
+.e51_299 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:390px;
+	height:844px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.ei51_299_30_5 { 
+	width:390px;
+	height:57px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.ei51_299_18_21 { 
+	width:390px;
+	height:57px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(images/curtainsbackground.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.ei51_299_30_10 { 
+	width:339px;
+	height:53px;
+	position:absolute;
+	left:25px;
+	top:0px;
+}
+.ei51_299_30_6 { 
+	width:44px;
+	height:53px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.ei51_299_18_25 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:44px;
+	height:33px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.ei51_299_18_26 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:44px;
+	height:40px;
+	position:absolute;
+	left:0px;
+	top:13px;
+}
+.ei51_299_18_27 { 
+	width:33px;
+	height:33px;
+	position:absolute;
+	left:5px;
+	top:12px;
+	background-image:url(images/home_icon_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.ei51_299_30_7 { 
+	width:44px;
+	height:53px;
+	position:absolute;
+	left:163px;
+	top:0px;
+}
+.ei51_299_18_35 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:44px;
+	height:33px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.ei51_299_18_36 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:44px;
+	height:40px;
+	position:absolute;
+	left:0px;
+	top:13px;
+}
+.ei51_299_18_38 { 
+	width:36px;
+	height:36px;
+	position:absolute;
+	left:4px;
+	top:11px;
+	background-image:url(images/person_icon_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.ei51_299_30_9 { 
+	width:44px;
+	height:53px;
+	position:absolute;
+	left:295px;
+	top:0px;
+}
+.ei51_299_18_30 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:44px;
+	height:33px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.ei51_299_18_31 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:44px;
+	height:40px;
+	position:absolute;
+	left:0px;
+	top:13px;
+}
+.ei51_299_18_34 { 
+	width:29px;
+	height:27px;
+	position:absolute;
+	left:7px;
+	top:16px;
+	background-image:url(images/shoppingcart_icon_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.ei51_299_30_8 { 
+	width:44px;
+	height:53px;
+	position:absolute;
+	left:229px;
+	top:0px;
+}
+.ei51_299_18_32 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:44px;
+	height:33px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.ei51_299_18_33 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:44px;
+	height:40px;
+	position:absolute;
+	left:0px;
+	top:13px;
+}
+.ei51_299_18_37 { 
+	width:30px;
+	height:30px;
+	position:absolute;
+	left:7px;
+	top:14px;
+	background-image:url(images/calendar_icon_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.ei51_299_30_23 { 
+	transform: rotate(-3.4162353736373043e-9deg);
+	width:390px;
+	height:0px;
+	position:absolute;
+	left:0px;
+	top:57px;
+}
+.i51_299_30_23 { 
+	border:1px solid rgba(0, 0, 0, 1);
+}
+.ei51_299_30_12 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:390px;
+	height:51px;
+	position:absolute;
+	left:0px;
+	top:57px;
+}
+.ei51_299_18_23 { 
+	width:24px;
+	height:24px;
+	position:absolute;
+	left:13px;
+	top:13px;
+	background-image:url(images/changesidebarbutton.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.ei51_299_30_13 { 
+	width:70px;
+	height:39px;
+	position:absolute;
+	left:160px;
+	top:6px;
+}
+.ei51_299_18_29 { 
+	color:rgba(0, 0, 0, 1);
+	width:70px;
+	height:31px;
+	position:absolute;
+	left:0px;
+	top:8px;
+	font-family:Inter;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+}
+.ei51_299_18_28 { 
+	color:rgba(0, 0, 0, 1);
+	width:46px;
+	height:16px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Inter;
+	text-align:left;
+	font-size:12px;
+	letter-spacing:0;
+}
+.ei51_299_30_22 { 
+	transform: rotate(-3.4162353736373043e-9deg);
+	width:390px;
+	height:0px;
+	position:absolute;
+	left:0px;
+	top:51px;
+}
+.i51_299_30_22 { 
+	border:1px solid rgba(0, 0, 0, 1);
+}
+.ei51_299_30_17 { 
+	width:390px;
+	height:691px;
+	position:absolute;
+	left:0px;
+	top:108px;
+}
+.ei51_299_30_24 { 
+	transform: rotate(-3.4162353736373043e-9deg);
+	width:390px;
+	height:0px;
+	position:absolute;
+	left:0px;
+	top:691px;
+}
+.i51_299_30_24 { 
+	border:1px solid rgba(0, 0, 0, 1);
+}
+.ei51_299_30_19 { 
+	width:390px;
+	height:736px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(images/theater2_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.ei51_299_30_26 { 
+	width:390px;
+	height:45px;
+	position:absolute;
+	left:0px;
+	top:799px;
+}
+.ei51_299_23_12 { 
+	width:390px;
+	height:45px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(images/curtainsbackground.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.ei51_299_30_29 { 
+	width:390px;
+	height:45px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.ei51_299_30_27 { 
+	color:rgba(255, 255, 255, 1);
+	width:390px;
+	height:20px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Inter;
+	text-align:center;
+	font-size:16px;
+	letter-spacing:0;
+}
+.ei51_299_30_28 { 
+	color:rgba(255, 255, 255, 1);
+	width:390px;
+	height:25px;
+	position:absolute;
+	left:0px;
+	top:20px;
+	font-family:Inter;
+	text-align:center;
+	font-size:16px;
+	letter-spacing:0;
+}
+.e51_300 { 
+	width:390px;
+	height:690px;
+	position:absolute;
+	left:0px;
+	top:108px;
+}
+.e50_306 { 
+	width:186px;
+	height:113.20978546142578px;
+	position:absolute;
+	left:102px;
+	top:55px;
+}
+.e50_307 { 
+	color:rgba(0, 0, 0, 1);
+	width:150px;
+	height:42px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Inter;
+	text-align:left;
+	font-size:32px;
+	letter-spacing:0;
+}
+.e50_308 { 
+	color:rgba(0, 0, 0, 1);
+	width:186px;
+	height:82px;
+	position:absolute;
+	left:0px;
+	top:31.20978546142578px;
+	font-family:Inter;
+	text-align:left;
+	font-size:67.53563690185547px;
+	letter-spacing:0;
+}
+
+
+
+.sidebaropenframe
+{
+top: 108px;
+position:absolute;
+background-color:#d9d9d9;
+height:389px;
+width:271px;
+padding:0px;
+}
+.contactbutton
+{
+height:48.64102554321289px;
+width:271px;
+padding:0px;
+left:0px;
+top:292px;
+position:relative;
+}
+.contact2
+{
+color:#000000;
+text-align:left;
+vertical-align:text-middle;
+font-size:18.066665649414062px;
+font-family:Inter;
+line-height:auto;
+border-style:hidden;
+outline:none;
+top:0px;
+left:20.84px;
+position:absolute;
+width:250.1538543701172px;
+}
+.buttonarrow
+{
+width:13.897436141967773px;
+left:222.35913085937455px;
+top:0px;
+position:absolute;
+}
+.ticketoverviewbutton
+{
+height:48.64102554321289px;
+width:271px;
+padding:0px;
+left:0px;
+top:195px;
+position:relative;
+}
+.ticketoverzicht
+{
+color:#000000;
+text-align:left;
+vertical-align:text-middle;
+font-size:18.066665649414062px;
+font-family:Inter;
+line-height:auto;
+border-style:hidden;
+outline:none;
+top:0px;
+left:20.84px;
+position:absolute;
+width:250.1538543701172px;
+}
+.buttonarrow2
+{
+width:13.897436141967773px;
+left:222.35913085937455px;
+top:0px;
+position:absolute;
+}
+.hirespacebutton
+{
+height:48.64102554321289px;
+width:271px;
+padding:0px;
+left:0px;
+top:98px;
+position:relative;
+}
+.ruimtehuren
+{
+color:#000000;
+text-align:left;
+vertical-align:text-middle;
+font-size:18.066665649414062px;
+font-family:Inter;
+line-height:auto;
+border-style:hidden;
+outline:none;
+top:0px;
+left:20.84px;
+position:absolute;
+width:250.1538543701172px;
+}
+.buttonarrow3
+{
+width:13.897436141967773px;
+left:222.35913085937455px;
+top:0px;
+position:absolute;
+}
+.donatebutton
+{
+height:48.64102554321289px;
+width:271px;
+padding:0px;
+left:0px;
+top:0.5px;
+position:relative;
+}
+.doneren
+{
+color:#000000;
+text-align:left;
+vertical-align:text-middle;
+font-size:18.066665649414062px;
+font-family:Inter;
+line-height:auto;
+border-style:hidden;
+outline:none;
+top:0px;
+left:20.84px;
+position:absolute;
+width:250.1538543701172px;
+}
+.buttonarrow4
+{
+width:13.897436141967773px;
+left:222.35913085937455px;
+top:0px;
+position:absolute;
+}
+.accountbutton
+{
+height:48.64102554321289px;
+width:271px;
+padding:0px;
+left:0px;
+top:-97px;
+position:relative;
+}
+.account2
+{
+color:#000000;
+text-align:left;
+vertical-align:text-middle;
+font-size:18.066665649414062px;
+font-family:Inter;
+line-height:auto;
+border-style:hidden;
+outline:none;
+top:-0.01px;
+left:20.84px;
+position:absolute;
+width:250.1538543701172px;
+}
+.buttonarrow5
+{
+width:13.897436141967773px;
+left:222.35913085937455px;
+top:0px;
+position:absolute;
+}
+.programbutton
+{
+height:48.64102554321289px;
+width:271px;
+padding:0px;
+left:0px;
+top:-194px;
+position:relative;
+}
+.programma
+{
+color:#000000;
+text-align:left;
+vertical-align:text-middle;
+font-size:18.066665649414062px;
+font-family:Inter;
+line-height:auto;
+border-style:hidden;
+outline:none;
+top:-0.01px;
+left:20.84px;
+position:absolute;
+width:250.1538543701172px;
+}
+.buttonarrow6
+{
+width:13.897436141967773px;
+left:222.35913085937455px;
+top:0px;
+position:absolute;
+}
+.reservebutton
+{
+height:48.64102554321289px;
+width:271px;
+padding:0px;
+position:absolute;
+top:0px;
+left:0px;
+}
+.reserveren
+{
+color:#000000;
+text-align:left;
+vertical-align:text-middle;
+font-size:18.066665649414062px;
+font-family:Inter;
+line-height:auto;
+border-style:hidden;
+outline:none;
+width:250.1538543701172px;
+}
+.buttonarrow7
+{
+width:13.897436141967773px;
+left:222.359130859375px;
+top:24.320419311523438px;
+position:absolute;
+}
+.logoutbutton
+{
+height:48.64102554321289px;
+width:271px;
+padding:0px;
+top:49px;
+position:relative;
+}
+.uitloggen
+{
+color:#000000;
+text-align:left;
+vertical-align:text-middle;
+font-size:18.066665649414062px;
+font-family:Inter;
+line-height:auto;
+border-style:hidden;
+outline:none;
+top:0px;
+left:20.84px;
+position:absolute;
+width:250.1538543701172px;
+}
+.logoutphoto
+{
+height:21.841270446777344px;
+width:21px;
+left:221px;
+top:0px;
+position:absolute;
+}
