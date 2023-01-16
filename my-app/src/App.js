@@ -5,7 +5,14 @@ function openMenuButton() {
   //set menu to visible
   //document.getElementById("sidebaropenframe").innerHTML = "test";
   console.log("Test");
-  //document.getElementById("sidebaropenframe").style.opacity = 1;
+  if (document.getElementById("sidebaropenframe").style.opacity == 0) {
+    document.getElementById("sidebaropenframe").style.pointerEvents = "auto";
+    document.getElementById("sidebaropenframe").style.opacity = 1;
+  }
+  else {
+    document.getElementById("sidebaropenframe").style.pointerEvents = "none";
+    document.getElementById("sidebaropenframe").style.opacity = 0;
+  }
 }
 
 function App() {
@@ -70,8 +77,7 @@ function App() {
         // document.getElementById('logoutbutton').style = 'opacity: 10%'
     }
   </script> */}
-  <button class="menubutton" onClick={openMenuButton()}>This is a testbutton</button>
-  <button class="menubuttontest" onClick={closeMenuButton()}>This is a testbutton</button>
+  <button class="menubutton" onClick={openMenuButton}>This is a testbutton</button>
   <div class="e51_300">
     <div class="e50_306"><span  class="e50_307">Welkom</span><span  class="e50_308">Naam</span></div>
   </div>
