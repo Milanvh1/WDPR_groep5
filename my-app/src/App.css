@@ -1,10 +1,15 @@
+
+.e39_61 { 
+	overflow:hidden;
+}
 .menubutton {
   width: 52px;
   height: 52px;
   position: absolute;
   left: 0px;
   top: 56px;
-  opacity: 50%;
+  opacity: 0%;
+  cursor: pointer;
 }
 .e51_298 { 
 	background-color:rgba(255, 255, 255, 1);
@@ -33,7 +38,7 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(images/curtainsbackground.png);
+	background-image:url(../public/images/curtainsbackground.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -73,7 +78,7 @@
 	position:absolute;
 	left:5px;
 	top:12px;
-	background-image:url(images/home_icon_2.png);
+	background-image:url(../public/images/home_icon_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -106,7 +111,7 @@
 	position:absolute;
 	left:4px;
 	top:11px;
-	background-image:url(images/person_icon_2.png);
+	background-image:url(../public/images/person_icon_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -139,7 +144,7 @@
 	position:absolute;
 	left:7px;
 	top:16px;
-	background-image:url(images/shoppingcart_icon_2.png);
+	background-image:url(../public/images/shoppingcart_icon_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -172,7 +177,7 @@
 	position:absolute;
 	left:7px;
 	top:14px;
-	background-image:url(images/calendar_icon_2.png);
+	background-image:url(../public/images/calendar_icon_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -201,7 +206,7 @@
 	position:absolute;
 	left:13px;
 	top:13px;
-	background-image:url(images/changesidebarbutton.png);
+	background-image:url(../public/images/changesidebarbutton.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -271,7 +276,8 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(images/theater2_2.png);
+	opacity: 0.5;
+	background-image:url(/public/images/theater2_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -288,7 +294,7 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(images/curtainsbackground.png);
+	background-image:url(../public/images/curtainsbackground.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -372,6 +378,8 @@ background-color:#d9d9d9;
 height:389px;
 width:271px;
 padding:0px;
+opacity: 0%;
+pointer-events: none;
 }
 .contactbutton
 {
@@ -381,6 +389,7 @@ padding:0px;
 left:0px;
 top:292px;
 position:relative;
+cursor: pointer;
 }
 .contact2
 {
@@ -412,6 +421,7 @@ padding:0px;
 left:0px;
 top:195px;
 position:relative;
+cursor: pointer;
 }
 .ticketoverzicht
 {
@@ -443,6 +453,7 @@ padding:0px;
 left:0px;
 top:98px;
 position:relative;
+cursor: pointer;
 }
 .ruimtehuren
 {
@@ -474,6 +485,7 @@ padding:0px;
 left:0px;
 top:0.5px;
 position:relative;
+cursor: pointer;
 }
 .doneren
 {
@@ -505,6 +517,7 @@ padding:0px;
 left:0px;
 top:-97px;
 position:relative;
+cursor: pointer;
 }
 .account2
 {
@@ -536,6 +549,7 @@ padding:0px;
 left:0px;
 top:-194px;
 position:relative;
+cursor: pointer;
 }
 .programma
 {
@@ -567,6 +581,7 @@ padding:0px;
 position:absolute;
 top:0px;
 left:0px;
+cursor: pointer;
 }
 .reserveren
 {
@@ -594,6 +609,7 @@ width:271px;
 padding:0px;
 top:49px;
 position:relative;
+cursor: pointer;
 }
 .uitloggen
 {

@@ -3,6 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import DonorScreen from './DonorScreen/DonorScreen';
+import ChairReserveScreen from './ChairReserveScreen/ChairReserveScreen';
+import ProgramScreen from './ProgramScreen/ProgramScreen';
+import ReserveListScreen from './ReserveListScreen/ReserveListScreen';
+import TicketOverviewScreen from './TicketOverviewScreen/TicketOverviewScreen';
+import RoomRentScreen from './RoomRentScreen/RoomRentScreen';
+import CreateAccountScreen from './CreateAccountScreen/CreateAccountScreen';
+import LoginScreen from './LoginScreen/LoginScreen';
+import AccountScreen from './AccountScreen/AccountScreen';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
