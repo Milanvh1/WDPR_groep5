@@ -28,7 +28,7 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(images/curtainsbackground.png);
+	background-image:url(/public/images/curtainsbackground.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -68,7 +68,7 @@
 	position:absolute;
 	left:5px;
 	top:12px;
-	background-image:url(images/home_icon_2.png);
+	background-image:url(../../public/images/home_icon_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -101,7 +101,7 @@
 	position:absolute;
 	left:4px;
 	top:11px;
-	background-image:url(images/person_icon_2.png);
+	background-image:url(../../public/images/person_icon_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -134,7 +134,7 @@
 	position:absolute;
 	left:7px;
 	top:16px;
-	background-image:url(images/shoppingcart_icon_2.png);
+	background-image:url(../../public/images/shoppingcart_icon_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -167,7 +167,7 @@
 	position:absolute;
 	left:7px;
 	top:14px;
-	background-image:url(images/calendar_icon_2.png);
+	background-image:url(../../public/images/calendar_icon_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -196,7 +196,7 @@
 	position:absolute;
 	left:13px;
 	top:13px;
-	background-image:url(images/changesidebarbutton.png);
+	background-image:url(../../public/images/changesidebarbutton.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -266,7 +266,7 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(images/theater2_2.png);
+	background-image:url(../../public/images/theater2_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -283,7 +283,7 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(images/curtainsbackground.png);
+	background-image:url(../../public/images/curtainsbackground.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }

@@ -1,34 +1,36 @@
-import './App.css';
+import './MainPage.css'; 
+import TicketOverviewScreen from '../TicketOverviewScreen/TicketOverviewScreen';
 
 function openMenuButton() {
-  //enable menu
-  //set menu to visible
-  //document.getElementById("sidebaropenframe").innerHTML = "test";
-  console.log("Test");
-  if (document.getElementById("sidebaropenframe").style.opacity == 0) {
-    document.getElementById("sidebaropenframe").style.pointerEvents = "auto";
-    document.getElementById("sidebaropenframe").style.opacity = 1;
-  }
-  else {
-    document.getElementById("sidebaropenframe").style.pointerEvents = "none";
-    document.getElementById("sidebaropenframe").style.opacity = 0;
-  }
-}
-
-function App() {
-
-  function setup() {
-    //document.getElementById("sidebaropenframe").style.opacity = 0;
-  }
-
-  function closeMenuButton() {
-    //set menu to invisible
-    //disable menu
-    //document.getElementById("sidebaropenframe").style.opacity = 0;
+    //enable menu
+    //set menu to visible
     //document.getElementById("sidebaropenframe").innerHTML = "test";
+    console.log("Test");
+    if (document.getElementById("sidebaropenframe").style.opacity == 0) {
+      document.getElementById("sidebaropenframe").style.pointerEvents = "auto";
+      document.getElementById("sidebaropenframe").style.opacity = 1;
+    }
+    else {
+      document.getElementById("sidebaropenframe").style.pointerEvents = "none";
+      document.getElementById("sidebaropenframe").style.opacity = 0;
+    }
   }
 
-  return (
+
+function MainPage() {
+    /*  
+    function setup() {
+        //document.getElementById("sidebaropenframe").style.opacity = 0;
+    }
+
+    function closeMenuButton() {
+        //set menu to invisible
+        //disable menu
+        //document.getElementById("sidebaropenframe").style.opacity = 0;
+        //document.getElementById("sidebaropenframe").innerHTML = "test";
+    }
+    */
+    return(
     <div class="e51_298">
   <div class="e51_299">
     <div class="ei51_299_30_5">
@@ -57,6 +59,7 @@ function App() {
       </div>
       <div class="ei51_299_30_23"></div>
     </div>
+    
     <div class="ei51_299_30_12">
       <div class="ei51_299_18_23"></div>
       <div class="ei51_299_30_13"><span  class="ei51_299_18_29">Laak</span><span  class="ei51_299_18_28">Theater</span></div>
@@ -71,6 +74,10 @@ function App() {
       <div class="ei51_299_30_29"><span  class="ei51_299_30_27">Tel: 1234567890</span><span  class="ei51_299_30_28">Email: qwert@yuiop.nl</span></div>
     </div>
   </div>
+
+
+
+  
   {/* <script>
     function onclick_event() {
         console.log("Test complete!!")
@@ -78,39 +85,30 @@ function App() {
     }
   </script> */}
   <button class="menubutton" onClick={openMenuButton}>This is a testbutton</button>
-  <div class="e51_300">
-    <div class="e50_306"><span  class="e50_307">Welkom</span><span  class="e50_308">Naam</span></div>
-  </div>
+
 
 
   <div id='sidebaropenframe' class='sidebaropenframe'>
     <button id='contactbutton' class='contactbutton'>
       <div id='contact2' class='contact2'>Contact</div>
-      <button id='buttonarrow' class='buttonarrow'></button>
     </button>
     <button id='ticketoverviewbutton' class='ticketoverviewbutton'>
       <div id='ticketoverzicht' class='ticketoverzicht'>Ticketoverzicht</div>
-      <button id='buttonarrow2' class='buttonarrow2'></button>
     </button>
     <button id='hirespacebutton' class='hirespacebutton'>
       <div id='ruimtehuren' class='ruimtehuren'>Ruimte huren</div>
-      <button id='buttonarrow3' class='buttonarrow3'></button>
     </button>
     <button id='donatebutton' class='donatebutton'>
       <div id='doneren' class='doneren'>Doneren</div>
-      <button id='buttonarrow4' class='buttonarrow4'></button>
     </button>
     <button id='accountbutton' class='accountbutton'>
       <div id='account2' class='account2'>Account</div>
-      <button id='buttonarrow5' class='buttonarrow5'></button>
     </button>
     <button id='programbutton' class='programbutton'>
       <div id='programma' class='programma'>Programma</div>
-      <button id='buttonarrow6' class='buttonarrow6'></button>
     </button>
     <button id='reservebutton' class='reservebutton'>
       <div id='reserveren' class='reserveren'>Reserveren</div>
-      <button id='buttonarrow7' class='buttonarrow7'></button>
     </button>
     <button id='logoutbutton' class='logoutbutton'>
       <div id='uitloggen' class='uitloggen'>Uitloggen</div>
@@ -118,28 +116,12 @@ function App() {
     </button>
     </div>
   </div>
+
   );
 }
 
+export default MainPage;
 
-
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>npx create-react-app my-app
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-export default App;
+//<div class="e51_300">
+//<div class="e50_306"><span  class="e50_307">Welkom</span><span  class="e50_308">Naam</span></div>
+//</div>
