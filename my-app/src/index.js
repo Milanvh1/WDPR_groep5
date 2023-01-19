@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './MainPageScreen/App';
 import reportWebVitals from './reportWebVitals';
 import DonorScreen from './DonorScreen/DonorScreen';
 import ChairReserveScreen from './ChairReserveScreen/ChairReserveScreen';
@@ -11,7 +10,8 @@ import TicketOverviewScreen from './TicketOverviewScreen/TicketOverviewScreen';
 import RoomRentScreen from './RoomRentScreen/RoomRentScreen';
 import CreateAccountScreen from './CreateAccountScreen/CreateAccountScreen';
 import LoginScreen from './LoginScreen/LoginScreen';
-import MainPageScreen from './MainPageScreen/App';
+import MainPageScreen from './MainPageScreen/MainPage';
+import AccountScreen from './AccountScreen/AccountScreen';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
