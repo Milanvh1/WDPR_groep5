@@ -4,48 +4,6 @@ function ReserveListScreen(){
 
     return(
 
-        <div class="e39_57">
-        <div class="e39_63">
-            <div class="ei39_63_30_5">
-            <div class="ei39_63_18_21"></div>
-            <div class="ei39_63_30_10">
-                <div class="ei39_63_30_6">
-                <div class="ei39_63_18_25"></div>
-                <div class="ei39_63_18_26"></div>
-                <div class="ei39_63_18_27"></div>
-                </div>
-                <div class="ei39_63_30_7">
-                <div class="ei39_63_18_35"></div>
-                <div class="ei39_63_18_36"></div>
-                <div class="ei39_63_18_38"></div>
-                </div>
-                <div class="ei39_63_30_9">
-                <div class="ei39_63_18_30"></div>
-                <div class="ei39_63_18_31"></div>
-                <div class="ei39_63_18_34"></div>
-                </div>
-                <div class="ei39_63_30_8">
-                <div class="ei39_63_18_32"></div>
-                <div class="ei39_63_18_33"></div>
-                <div class="ei39_63_18_37"></div>
-                </div>
-            </div>
-            <div class="ei39_63_30_23"></div>
-            </div>
-            <div class="ei39_63_30_12">
-            <div class="ei39_63_18_23"></div>
-            <div class="ei39_63_30_13"><span  class="ei39_63_18_29">Laak</span><span  class="ei39_63_18_28">Theater</span></div>
-            <div class="ei39_63_30_22"></div>
-            </div>
-            <div class="ei39_63_30_17">
-            <div class="ei39_63_30_24"></div>
-            <div class="ei39_63_30_19"></div>
-            </div>
-            <div class="ei39_63_30_26">
-            <div class="ei39_63_23_12"></div>
-            <div class="ei39_63_30_29"><span  class="ei39_63_30_27">Tel: 1234567890</span><span  class="ei39_63_30_28">Email: qwert@yuiop.nl</span></div>
-            </div>
-        </div>
         <div class="e41_269">
             <div class="e39_341">
             <div class="e39_342">
@@ -110,7 +68,6 @@ function ReserveListScreen(){
                 <div class="e41_261"></div>
             </div>
             </div>
-        </div>
         </div>
     )
 }

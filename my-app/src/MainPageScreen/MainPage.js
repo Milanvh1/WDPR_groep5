@@ -14,8 +14,10 @@ function openMenuButton() {
       document.getElementById("sidebaropenframe").style.pointerEvents = "none";
       document.getElementById("sidebaropenframe").style.opacity = 0;
     }
-  }
-
+}
+function test(){
+  render(<DonorScreen />);
+}
 
 function MainPage() {
     /*  
