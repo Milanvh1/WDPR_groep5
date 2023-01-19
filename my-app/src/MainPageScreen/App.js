@@ -1,4 +1,38 @@
 import './App.css';
+import React, { useState, useEffect } from 'react';
+import { render, screen } from '@testing-library/react';
+import ChairReserveScreen from '../ChairReserveScreen/ChairReserveScreen';
+import CreateAccountScreen from '../CreateAccountScreen/CreateAccountScreen';
+import DonorScreen from '../DonorScreen/DonorScreen';
+import LoginScreen from '../LoginScreen/LoginScreen';
+import ProgramScreen from '../ProgramScreen/ProgramScreen';
+import ReserveListScreen from '../ReserveListScreen/ReserveListScreen';
+import RoomRentScreen from '../RoomRentScreen/RoomRentScreen';
+import TicketOverviewScreen from '../TicketOverviewScreen/TicketOverviewScreen';
+import MainPageScreen from '../MainPageScreen/App';
+
+// function AppSize() {
+//   const [windowSize, setWindowSize] = useState(getWindowSize());
+// }
+
+// function getWindowSize() {
+//   const {innerWidth, innerHeight} = window;
+//   return {innerWidth, innerHeight};
+// }
+
+
+function OpenReservePage() {
+  //window.open('/ChairReserveScreen.html');
+  window.location.href='ChairReserveScreen.html'
+  //parent.frame2.location.href=ChairReserveScreen.html
+  // const [file, setFile] = useState(null);
+
+  // useEffect(() => {
+  //   fetch('/ChairReserveScreen.html')
+  //     .then(response => response.blob())
+  //     .then(file => setFile(file))
+  // }, [])
+}
 
 function openMenuButton() {
   //enable menu
@@ -15,21 +49,58 @@ function openMenuButton() {
   }
 }
 
+// function LoadPageOnReload() {
+//   useEffect(() => {
+//     if (window.location.href.includes("ChairReserveScreen.html")) {
+//       render(<ChairReserveScreen />);
+//       console.log("If window success");
+//     }
+//     else
+//       console.log("If window NOT success");
+//   }, []);
+// }
+
 function App() {
+    useEffect(() => {
+      window.addEventListener('load', function() {
+        window.resizeTo(document.innerWidth, document.inn);
+        console.log(document.getElementById("test"));
+        window.resizeTo(this.screen.availHeight, this.screen.availWidth);
+        console.log(this.innerWidth);
 
-  function setup() {
-    //document.getElementById("sidebaropenframe").style.opacity = 0;
-  }
-
-  function closeMenuButton() {
-    //set menu to invisible
-    //disable menu
-    //document.getElementById("sidebaropenframe").style.opacity = 0;
-    //document.getElementById("sidebaropenframe").innerHTML = "test";
-  }
+        if (window.location.href.includes("ChairReserveScreen.html")) {
+          render(<ChairReserveScreen />);
+        }
+        if (window.location.href.includes("CreateAccountScreen.html")) {
+          render(<CreateAccountScreen />);
+        }
+        if (window.location.href.includes("DonorScreen.html")) {
+          render(<DonorScreen />);
+        }
+        if (window.location.href.includes("LoginScreen.html")) {
+          render(<LoginScreen />);
+        }
+        if (window.location.href.includes("ProgramScreen.html")) {
+          render(<ProgramScreen />);
+        }
+        if (window.location.href.includes("ReserveListScreen.html")) {
+          render(<ReserveListScreen />);
+        }
+        if (window.location.href.includes("RoomRentScreen.html")) {
+          render(<RoomRentScreen />);
+        }
+        if (window.location.href.includes("TicketOverviewScreen.html")) {
+          render(<TicketOverviewScreen />);
+        }
+        else {
+          console.log("ERROR: Window URL not found in App()");
+          render(<MainPageScreen />);
+        }
+      });
+    }, []);
 
   return (
-    <div class="e51_298">
+    <div class="e51_298" id="test">
   <div class="e51_299">
     <div class="ei51_299_30_5">
       <div class="ei51_299_18_21"></div>
@@ -71,12 +142,6 @@ function App() {
       <div class="ei51_299_30_29"><span  class="ei51_299_30_27">Tel: 1234567890</span><span  class="ei51_299_30_28">Email: qwert@yuiop.nl</span></div>
     </div>
   </div>
-  {/* <script>
-    function onclick_event() {
-        console.log("Test complete!!")
-        // document.getElementById('logoutbutton').style = 'opacity: 10%'
-    }
-  </script> */}
   <button class="menubutton" onClick={openMenuButton}>This is a testbutton</button>
   <div class="e51_300">
     <div class="e50_306"><span  class="e50_307">Welkom</span><span  class="e50_308">Naam</span></div>
@@ -108,11 +173,11 @@ function App() {
       <div id='programma' class='programma'>Programma</div>
       <button id='buttonarrow6' class='buttonarrow6'></button>
     </button>
-    <button id='reservebutton' class='reservebutton'>
+    <button id='reservebutton' class='reservebutton' onClick={OpenReservePage}>
       <div id='reserveren' class='reserveren'>Reserveren</div>
       <button id='buttonarrow7' class='buttonarrow7'></button>
     </button>
-    <button id='logoutbutton' class='logoutbutton'>
+    <button id='logoutbutton' class='logoutbutton' onClick="/AccountScreen/AccountScreen.js">
       <div id='uitloggen' class='uitloggen'>Uitloggen</div>
       <img id='logoutphoto' class='logoutphoto' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAWCAYAAAAvg9c4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFBSURBVHgBzZW9SsRAFIVPwgSWxMJACkHCrmATELQJtks6sbFJbXwCH8FHsLRd8UEM+ACWKSw2IY2QYqtUIYk3f7Aum8kPWdgDB2aGOx8zc2fuQFXVewAbcj7Aa0mSrsHReiCw8WcbkJEXRUMUxVWWZe/o1jP5oZnXBkUN9QnqoluPXQEiDqCjgT6RBfJF0bFt+2RfUJlNxtgLRoiu1pdlWeeTQgVB2BD4xzCMeTPGeBNM0zyLouiWFxMEwSxJkkvP81zqLosh7koVRXEw8KWR51Nnf0FeTQ31yQ73TNM0dVFdoVZRot7yPJ/VwCW6zrSPiuyjPstmbIrt+9ha4SRQWZbvtoFjoa+otlvW0ziOf3cDGIbrFJxa+g9Kmb5Bj1rZBSxF7/YbI74TTdNavxNB1/WrMAw/UG2rr3yyg50ENfoDb7SAJP0PfPkAAAAASUVORK5CYII='/>
     </button>

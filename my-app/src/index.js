@@ -11,11 +11,12 @@ import TicketOverviewScreen from './TicketOverviewScreen/TicketOverviewScreen';
 import RoomRentScreen from './RoomRentScreen/RoomRentScreen';
 import CreateAccountScreen from './CreateAccountScreen/CreateAccountScreen';
 import LoginScreen from './LoginScreen/LoginScreen';
+import MainPageScreen from './MainPageScreen/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TicketOverviewScreen />
+    <MainPageScreen />
   </React.StrictMode>
 );
 
