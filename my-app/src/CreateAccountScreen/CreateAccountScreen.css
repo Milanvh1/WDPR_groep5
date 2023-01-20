@@ -13,7 +13,7 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(images/backgroundpicture.png);
+	background-image:url(../../public/images/backgroundpicture.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -182,7 +182,7 @@
 	position:absolute;
 	left:6px;
 	top:29px;
-	background-image:url(images/theaterlaaklogo.png);
+	background-image:url(../../public/images/theaterlaaklogo.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }

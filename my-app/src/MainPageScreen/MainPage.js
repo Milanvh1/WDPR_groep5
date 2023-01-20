@@ -71,11 +71,10 @@ function openMenuButton() {
 function MainPage() {
     useEffect(() => {
       window.addEventListener('load', function() {
-        window.resizeTo(document.innerWidth, document.inn);
-        console.log(document.getElementById("test"));
-        window.resizeTo(this.screen.availHeight, this.screen.availWidth);
-        console.log(this.innerWidth);
-        render(<Background />);
+        //window.resizeTo(document.innerWidth, document.inn);
+        //console.log(document.getElementById("test"));
+        //window.resizeTo(this.screen.availHeight, this.screen.availWidth);
+        //console.log(this.innerWidth);
         if (window.location.href.includes("ChairReserveScreen.html")) {
           render(<ChairReserveScreen />);
         }
@@ -100,9 +99,11 @@ function MainPage() {
         if (window.location.href.includes("TicketOverviewScreen.html")) {
           render(<TicketOverviewScreen />);
         }
-        else {
-          console.log("ERROR: Window URL not found in App()");
+        if (window.location.href.includes("api")) {
         }
+        // else {
+        //   console.log("ERROR: Window URL not found in App()");
+        // }
       });
       
     }, []);
@@ -179,3 +180,4 @@ function MainPage() {
   );
 }
 export default MainPage;
+render(<Background />);
